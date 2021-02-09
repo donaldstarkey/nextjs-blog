@@ -1,6 +1,6 @@
 //import React, { Component } from "react";
 import Link from "next/link";
-import Date from "../components/date";
+//import Date from "../components/date";
 import Layout from "../components/layout";
 import Head from "next/head";
 import { getSortedPostsData } from "../../lib/posts";
