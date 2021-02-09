@@ -20,7 +20,7 @@ export default function FirstPost({ allPostsData }) {
     <>
       <Layout>
         <Head>
-          <title>First Post</title>
+          <title>First Blog Post</title>
         </Head>
         <h1>First Post</h1>
         <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
