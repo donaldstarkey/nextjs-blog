@@ -33,10 +33,10 @@ export default function Post({ postData }) {
       <br />
       {postData.id}
       <br />
-      {/* {postData.date} */}
-      <div className={utilStyles.lightText}>
+      {postData.date}
+      {/* <div className={utilStyles.lightText}>
         <Date dateString={postData.date} />
-      </div>
+      </div> */}
       <br />
       <div dangerouslySetInnerHTML={{ __html: postData.contentHtml }} />
     </Layout>

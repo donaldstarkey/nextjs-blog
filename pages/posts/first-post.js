@@ -36,7 +36,8 @@ export default function FirstPost({ allPostsData }) {
                 {id}
                 <br />
                 <small className={utilStyles.lightText}>
-                  <Date dateString={date} />
+                  {/* <Date dateString={date} /> */}
+                  {date}
                 </small>
               </li>
             ))}
